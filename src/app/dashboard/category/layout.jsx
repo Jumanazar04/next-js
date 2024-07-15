@@ -1,17 +1,11 @@
+import DashboardLayout from "../layout";
 
-export default function CategoryLayout({ children }) {
-    return (
-      <div>
-        <header>
-          <h1>Category</h1>
-        </header>
-        <main>
-          {children}
-        </main>
-        <footer>
-          <p>Category footer</p>
-        </footer>
-      </div>
-    );
-  }
+export default function Category() {
+  return (
+    <DashboardLayout>
+      <h1>Category Page</h1>
+    </DashboardLayout>
+  );
+}
+
   
