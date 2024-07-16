@@ -22,9 +22,9 @@ export default function DashboardLayout({ children }) {
           </div>
         </nav>
       </header>
-      <main>{children}</main>
-      <footer>
-        <p>Dashboard footer</p>
+      <main className='container mx-auto px-12 py-6'>{children}</main>
+      <footer className='mx-auto container text-center'>
+        <p>Dashboard footer {new Date().getFullYear()}</p>
       </footer>
     </div>
   );
